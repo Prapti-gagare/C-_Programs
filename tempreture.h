@@ -13,11 +13,13 @@ public:
         temp = t;
     }
 
+    
     double celsiusToFahrenheit()
     {
         return 1.8 * temp + 32;
     }
 
+    
     double fahrenheitToCelsius()
     {
         return (5.0 / 9.0) * (temp - 32);
